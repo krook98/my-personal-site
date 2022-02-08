@@ -5,31 +5,45 @@ body {
 }
 
 h1 {
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 562.5%;
+    color: #66BFBF;
+    line-height: 4;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
 }
 
 .top-container {
-    background-color: #219F94;
+    background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
 }
 
 .middle-container {
-    background-color: #C1DEAE;
+    background-color: #E4F9F5;
 }
 
 .bottom-container {
-    background-color: #F2F5C8;
+    background-color: #E4F9F5;
 }
 
 .contact-me {
-    background-color: #E8E8A6;
+    background-color: #E4F9F5;
 }
 
 
@@ -45,3 +59,31 @@ h3 {
     top: 300px;
 }
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.circular {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.language-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+#bear-programmer {
+    border-radius: 10%;
+    width: 50%;
+    margin: 50px auto 50px auto;
+    display: block;
+}
